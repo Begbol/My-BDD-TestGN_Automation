@@ -21,6 +21,8 @@ public class TC_AddCustomerTest_003 extends BaseClass
 		logger.info("Passsword is provided");
 		lp.clickSubmit();
 		
+		
+		
 		Thread.sleep(1000);
 		
 		AddCustomerPage addcust=new AddCustomerPage(driver);
